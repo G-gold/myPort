@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:url("./imgs/kamran-abdullayev-9V1cYW4JIfQ-unsplash.jpg");
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #020202; */
+}
+
+.title {
+  /* background-color: #020202; */
+  height: 400px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.title img {
+  /* margin: 0; */
+  background-color: whitesmoke;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: solid 5px;
+  border-color: white;
+  margin-top: 15px;
+}
+
+.prog {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* top: 0; */
+}
+
+.about {
+  /* background-color: #020202; */
+  height: 405px;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  border: solid 5px;
+  border-color: whitesmoke;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+.about span {
+  color: azure;
+  font-family:'Charmonman';
+  font-size: 100px;
+  text-align: center;
+  margin-top: 900px;
+
+}
+
+h3{
+  margin-top: -100px;
+  color: rgb(243, 158, 0);
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 350px;
+  margin-left: 10%;
+  margin-right: 10%;
+  opacity: 90%;
+}
+
+.skills-img1{
+  margin-top: 00px;
+}
+.skills-img2{
+  margin-top: 50px;
+}
+.skills-img3{
+  margin-top: 100px;
+}
+
+img{
+/* justify-content: start; */
+opacity: 90%;
+}
+.skills img{
+justify-content: flex-end;
+border-radius: 120px;
+margin: 5px;
+}
+
+.circle {
+  /* background-color: #482121; */
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* border: solid 5px; */
+  border-color: white;
+}
+
+.pImg {
+  display: flex;
+  justify-content: end;
+  margin-top: 300px;
+  /* align-items: flex-end; */
+}
+
+/* .pImg img{
+  height: 300px;
+} */
+
+.circle .text{
+  /* background: url("./imgs/programming-background-collage.jpg"); */
+  color: azure;
+font-size: 50px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.projects {
+  /* background-color: rgb(4, 33, 59); */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: 21%;
+  margin-right: 30%;
+  margin-bottom: 5px;
+}
+
+.projects .circle{
+  background-color: azure;
+}
+
+button{
+  font-family: cursive;
+  padding: 15px;
+  width: 150px;
+  border-radius: 40px;
+  font-weight: 1000;
+  margin-left: 130px;
+}
+
+.skills .css{
+background-color: #020219;
+color: azure;
+}
+
+.skills .html{
+  background-color: rgb(243, 158, 0);
+}
+
+.skills .js{
+  background-color: #020219;
+  color: rgb(243, 158, 0);
+}
+
+.mid-line {
+  /* background-color: #a61750; */
+  height: 10px;
+}
+
+.circle-line{
+  /* background-color: aliceblue; */
+  height: 400px;
+  width: 800px;
+  border-radius: 60%;
+  border-color: white;
+  border: solid 10px;
+  
+  position: absolute;
+  top: 165%;
+  left: 20%;
+  
+  z-index: 1;
+}
+
+.interests {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 41%;
+  /* margin-right: 21%; */
+}
+
+.interests .circle{
+background-color: azure;
+}
+
+.footer {
+  background-color: #b35837;
+  height: 300px;
+  margin-top: 150px;
+}
