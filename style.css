@@ -21,7 +21,6 @@ body {
 }
 
 .title img {
-  /* margin: 0; */
   background-color: whitesmoke;
   border-radius: 50%;
   object-fit: cover;
@@ -31,50 +30,89 @@ body {
   border: solid 5px;
   border-color: white;
   margin-top: 15px;
+     box-shadow: 0px 10px 20px 5px rgba(244, 231, 231, 0.5);
+  transform: translateY(-5px);
 }
 
 .prog {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  /* top: 0; */
 }
 
-.about {
-  /* background-color: #020202; */
+.frame {
   height: 405px;
   width: 80%;
   position: absolute;
   top: 0;
   border: solid 5px;
   border-color: whitesmoke;
-  z-index: 1;
+  /* z-index: 1; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  overflow-x: hidden;
 }
 
-.about span {
+
+/* .second{
+ width:90% ;
+}
+
+.third{
+  border-color: #020219;
+} */
+
+.text {
   color: azure;
-  font-family:'Charmonman';
+  font-family:Charmonman;
   font-size: 100px;
   text-align: center;
-  margin-top: 900px;
-
 }
 
 h3{
   margin-top: -100px;
   color: rgb(243, 158, 0);
 }
+
 .skills {
   display: flex;
   justify-content: space-between;
-  margin-top: 350px;
+  margin-top: -135px;
   margin-left: 10%;
   margin-right: 10%;
   opacity: 90%;
+}
+
+.rec{
+  height: 500px;
+  width: 400px;
+  border-radius: 50px;
+  margin: 10px;
+  opacity: 90%;
+  border: none;
+}
+
+.one{
+  background-image:url("./imgs/4884785.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.two{
+  
+  background-image:url("./imgs/12291228_Wavy_Tech-29_Single-03.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  
+}
+.three{
+  
+  background-image:url("./imgs/12290877_Wavy_Tech-09_Single-08.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
 }
 
 .skills-img1{
@@ -85,16 +123,6 @@ h3{
 }
 .skills-img3{
   margin-top: 100px;
-}
-
-img{
-/* justify-content: start; */
-opacity: 90%;
-}
-.skills img{
-justify-content: flex-end;
-border-radius: 120px;
-margin: 5px;
 }
 
 .circle {
@@ -186,16 +214,17 @@ color: azure;
   z-index: 1;
 }
 
-.interests {
+/* .interests {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
   margin-left: 41%;
-  /* margin-right: 21%; */
-}
+} */
 
 .interests .circle{
 background-color: azure;
+border-radius: 20%;
+height: 60px;
 }
 
 .footer {
