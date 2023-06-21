@@ -2,11 +2,13 @@ body {
   margin: 0;
   padding: 0;
   background: url("./imgs/kamran-abdullayev-9V1cYW4JIfQ-unsplash.jpg");
+
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .title {
