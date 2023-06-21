@@ -124,18 +124,33 @@ footer {
   margin-top: 70px;
 }
 
-@media (max-width: 700px) {
-  .skills {
-    flex-direction: column;
-    align-items: center;
+@media(min-width:350px) and (max-width:700px){
+.title img{
+  height: 350px;
+  width: 350px;
+  /* margin-top: -35px; */
+}
+.frame {
+  display: none;
   }
+.text span, h3{
+  font-size: 4rem;
+  
+}
+.text{
+margin-top: -3rem;
+}
+}
+@media (max-width: 700px) {
+  
   .frame {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .text {
-    font-size: 70px;
-    margin-top: 1rem;
+  
+  .skills {
+    flex-direction: column;
+    align-items: center;
   }
   .one,
   .three {
