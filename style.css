@@ -1,31 +1,30 @@
-
 body {
   margin: 0;
   padding: 0;
-  background:url("./imgs/kamran-abdullayev-9V1cYW4JIfQ-unsplash.jpg");
+  background: url("./imgs/kamran-abdullayev-9V1cYW4JIfQ-unsplash.jpg");
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  }
+}
 
 .title {
-    height: 400px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .title img {
-  background-color: #D0D0D0;
+  background-color: #d0d0d0;
   border-radius: 50%;
   object-fit: cover;
   height: 400px;
   width: 400px;
   border-radius: 50%;
   border: solid 5px;
-  border-color: #D0D0D0;
+  border-color: #d0d0d0;
   margin-top: 15px;
 }
 
@@ -35,7 +34,7 @@ body {
   position: absolute;
   top: 0;
   border: solid 5px;
-  border-color: #D0D0D0;
+  border-color: #d0d0d0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,50 +44,43 @@ body {
 }
 
 .text {
-  color: #D0D0D0;
-  font-family:Charmonman;
+  color: #d0d0d0;
+  font-family: Charmonman;
   font-size: 100px;
   text-align: center;
 }
 
-h3{
+h3 {
   margin-top: -100px;
-  color: #D0A037;
+  color: #d0a037;
 }
 
 .skills {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: -135px;
-  margin-left: 10%;
-  margin-right: 10%;
-  opacity: 90%;
-  display: flex;
+  opacity: 80%;
 }
 
-.rec{
+.rec {
   height: 450px;
   width: 350px;
   border-radius: 50px;
-  margin: 10px;
-  opacity: 90%;
-  border: none; 
 }
 
-.one{
-  background-image:url("./imgs/4884785.jpg");
+.one {
+  background-image: url("./imgs/4884785.jpg");
   background-size: cover;
   background-position: center;
 }
-.two{
-  background-image:url("./imgs/12291228_Wavy_Tech-29_Single-03.jpg");
+.two {
+  background-image: url("./imgs/12291228_Wavy_Tech-29_Single-03.jpg");
   background-size: cover;
   background-position: center;
   margin-top: 30px;
-  
 }
-.three{ 
-  background-image:url("./imgs/12290877_Wavy_Tech-09_Single-08.jpg");
+.three {
+  background-image: url("./imgs/12290877_Wavy_Tech-09_Single-08.jpg");
   background-size: cover;
   background-position: center;
   margin-top: 60px;
@@ -96,10 +88,9 @@ h3{
 
 .projects {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 200px;
-  margin-top: 5px;
+  margin-top: 1rem;
 }
 
 .circle {
@@ -111,33 +102,69 @@ h3{
   justify-content: center;
   align-items: center;
   position: relative;
-  border: 5px solid #D0D0D0;
-  color: #D0D0D0;
+  border: 5px solid #d0d0d0;
+  color: #d0d0d0;
 }
 
-.play-button{
+.play-button {
   width: 0;
   height: 0;
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 40px solid #CD7326;
+  border-left: 40px solid #cd7326;
   cursor: pointer;
-  color: #D0D0D0;
-}
-
-.second{
-  margin-top: 50px;
+  color: #d0d0d0;
 }
 
 footer {
-  background-color: #CD7326;
+  background-color: #cd7326;
   height: 50px;
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
-@media (max-width:750px){
-  .skills{
+@media (max-width: 700px) {
+  .skills {
     flex-direction: column;
     align-items: center;
+  }
+  .frame {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .text {
+    font-size: 70px;
+    margin-top: 1rem;
+  }
+  .one,
+  .three {
+    display: none;
+  }
+  .two {
+    margin-top: 5rem;
+  }
+  .projects {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1400px) {
+  .skills {
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+  }
+  .projects {
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+  .circle {
+    height: 150px;
+    width: 150px;
+  }
+  .play-button {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #cd7326;
   }
 }
