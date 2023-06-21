@@ -1,42 +1,32 @@
+
 body {
   margin: 0;
   padding: 0;
   background:url("./imgs/kamran-abdullayev-9V1cYW4JIfQ-unsplash.jpg");
-
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  /* background-color: #020202; */
-}
+  }
 
 .title {
-  /* background-color: #020202; */
-  height: 400px;
+    height: 400px;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
 
 .title img {
-  background-color: whitesmoke;
+  background-color: #D0D0D0;
   border-radius: 50%;
   object-fit: cover;
   height: 400px;
   width: 400px;
   border-radius: 50%;
   border: solid 5px;
-  border-color: white;
+  border-color: #D0D0D0;
   margin-top: 15px;
-     box-shadow: 0px 10px 20px 5px rgba(244, 231, 231, 0.5);
-  transform: translateY(-5px);
-}
-
-.prog {
-  display: flex;
-  justify-content: center;
 }
 
 .frame {
@@ -45,8 +35,7 @@ body {
   position: absolute;
   top: 0;
   border: solid 5px;
-  border-color: whitesmoke;
-  /* z-index: 1; */
+  border-color: #D0D0D0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,17 +44,8 @@ body {
   overflow-x: hidden;
 }
 
-
-/* .second{
- width:90% ;
-}
-
-.third{
-  border-color: #020219;
-} */
-
 .text {
-  color: azure;
+  color: #D0D0D0;
   font-family:Charmonman;
   font-size: 100px;
   text-align: center;
@@ -73,7 +53,7 @@ body {
 
 h3{
   margin-top: -100px;
-  color: rgb(243, 158, 0);
+  color: #D0A037;
 }
 
 .skills {
@@ -83,15 +63,16 @@ h3{
   margin-left: 10%;
   margin-right: 10%;
   opacity: 90%;
+  display: flex;
 }
 
 .rec{
-  height: 500px;
-  width: 400px;
+  height: 450px;
+  width: 350px;
   border-radius: 50px;
   margin: 10px;
   opacity: 90%;
-  border: none;
+  border: none; 
 }
 
 .one{
@@ -100,135 +81,63 @@ h3{
   background-position: center;
 }
 .two{
-  
   background-image:url("./imgs/12291228_Wavy_Tech-29_Single-03.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 50px;
+  margin-top: 30px;
   
 }
-.three{
-  
+.three{ 
   background-image:url("./imgs/12290877_Wavy_Tech-09_Single-08.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 100px;
-}
-
-.skills-img1{
-  margin-top: 00px;
-}
-.skills-img2{
-  margin-top: 50px;
-}
-.skills-img3{
-  margin-top: 100px;
-}
-
-.circle {
-  /* background-color: #482121; */
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  /* border: solid 5px; */
-  border-color: white;
-}
-
-.pImg {
-  display: flex;
-  justify-content: end;
-  margin-top: 300px;
-  /* align-items: flex-end; */
-}
-
-/* .pImg img{
-  height: 300px;
-} */
-
-.circle .text{
-  /* background: url("./imgs/programming-background-collage.jpg"); */
-  color: azure;
-font-size: 50px;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  margin-top: 60px;
 }
 
 .projects {
-  /* background-color: rgb(4, 33, 59); */
   display: flex;
-  justify-content: space-between;
-  margin-top: 80px;
-  margin-left: 21%;
-  margin-right: 30%;
-  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 5px;
 }
 
-.projects .circle{
-  background-color: azure;
-}
-
-button{
-  font-family: cursive;
-  padding: 15px;
-  width: 150px;
-  border-radius: 40px;
-  font-weight: 1000;
-  margin-left: 130px;
-}
-
-.skills .css{
-background-color: #020219;
-color: azure;
-}
-
-.skills .html{
-  background-color: rgb(243, 158, 0);
-}
-
-.skills .js{
-  background-color: #020219;
-  color: rgb(243, 158, 0);
-}
-
-.mid-line {
-  /* background-color: #a61750; */
-  height: 10px;
-}
-
-.circle-line{
-  /* background-color: aliceblue; */
-  height: 400px;
-  width: 800px;
-  border-radius: 60%;
-  border-color: white;
-  border: solid 10px;
-  
-  position: absolute;
-  top: 165%;
-  left: 20%;
-  
-  z-index: 1;
-}
-
-/* .interests {
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
   display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
-  margin-left: 41%;
-} */
-
-.interests .circle{
-background-color: azure;
-border-radius: 20%;
-height: 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 5px solid #D0D0D0;
+  color: #D0D0D0;
 }
 
-.footer {
-  background-color: #b35837;
-  height: 300px;
+.play-button{
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid #CD7326;
+  cursor: pointer;
+  color: #D0D0D0;
+}
+
+.second{
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #CD7326;
+  height: 50px;
   margin-top: 150px;
+}
+
+@media (max-width:750px){
+  .skills{
+    flex-direction: column;
+    align-items: center;
+  }
 }
