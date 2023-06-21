@@ -27,10 +27,10 @@ body {
   border-radius: 50%;
   border: solid 5px;
   border-color: #d0d0d0;
-  margin-top: 15px;
+  margin-top: 45px;
 }
 
-.frame {
+/* .frame {
   height: 405px;
   width: 80%;
   position: absolute;
@@ -43,7 +43,7 @@ body {
   border-bottom-right-radius: 150px;
   border-bottom-left-radius: 150px;
   overflow-x: hidden;
-}
+} */
 
 .text {
   color: #d0d0d0;
