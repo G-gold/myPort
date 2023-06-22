@@ -26,7 +26,7 @@ body {
   width: 400px;
   border-radius: 50%;
   border: solid 5px;
-  border-color: #d0d0d0;
+  border-color:#d0d0d0;
   margin-top: 45px;
 }
 
@@ -54,38 +54,55 @@ body {
 
 h3 {
   margin-top: -100px;
-  color: #d0a037;
+  background: linear-gradient(360deg,#CC4B15,#d0d0d0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .skills {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+ margin-left: 5rem;
+ margin-right: 5rem;
   margin-top: -135px;
   opacity: 80%;
 }
 
 .rec {
-  height: 450px;
-  width: 350px;
-  border-radius: 50px;
+  height: 350px;
+  width: 400px;
+  margin-top: 2rem;
+  border-radius: 1rem;
 }
 
 .one {
-  background-image: url("./imgs/4884785.jpg");
+  background-image: url("./imgs/img-one\ \(2\).jpg");
   background-size: cover;
   background-position: center;
 }
 .two {
-  background-image: url("./imgs/12291228_Wavy_Tech-29_Single-03.jpg");
+  background-image: url("./imgs/img-two.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .three {
-  background-image: url("./imgs/12290877_Wavy_Tech-09_Single-08.jpg");
+  background-image: url("./imgs/img-three.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+}
+.skills-text{
+  color:#d0d0d0 ;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5rem;
+ margin-right: 5rem;
+ font-weight: bolder;
+ font-size: 1.5rem;
+ background: linear-gradient(to right,#ff4e02,#d0d0d0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .projects {
@@ -104,7 +121,7 @@ h3 {
   justify-content: center;
   align-items: center;
   position: relative;
-  border: 5px solid #d0d0d0;
+  border: 5px solid #CC4B15;
   color: #d0d0d0;
 }
 
@@ -113,15 +130,32 @@ h3 {
   height: 0;
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 40px solid #cd7326;
+  border-left: 40px solid #d0d0d0;
   cursor: pointer;
   color: #d0d0d0;
+  font-weight: bolder;
 }
 
 footer {
-  background-color: #cd7326;
-  height: 50px;
+  background-color: #CC4B15;
+  height: 15rem;
   margin-top: 70px;
+  color: #d0d0d0;
+}
+
+footer a{
+  color: #d0d0d0;
+}
+
+footer p{
+  margin-left: 5rem;
+}
+
+footer p:nth-child(1){
+  font-size: 1.2rem;
+}
+footer p:nth-child(5){
+  margin-top: 4rem;
 }
 
 @media(min-width:350px) and (max-width:700px){
@@ -182,6 +216,6 @@ margin-top: -3rem;
   .play-button {
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-left: 20px solid #cd7326;
+    border-left: 20px solid #CC4B15;
   }
 }
